@@ -8,7 +8,7 @@ Abstract: Most research on pseudo relevance feedback (PRF) has been done in vect
 
 
 ## Data 
-Please download `data.zip` from our virtual appendix [here](http://boston.lti.cs.cmu.edu/appendices/ECIR20-HongChien-Yu/downloads). Unzip the file, and place the `data` folder as it is in this repo. 
+Please download `data.zip` from our virtual appendix [here](http://boston.lti.cs.cmu.edu/appendices/ECIR20-HongChien-Yu/downloads). Unzip the file, and place the unzipped `data` folder directly in this repo (so it becomes `pgt/data`). 
 
 ### Folder Structure 
 The `data.zip` folder is structured as follows, where ${i} is the file index. The training set is too large to fit into the RAM, so we break it into 26 blocks and read 1 block at a time to save the working memory. 
