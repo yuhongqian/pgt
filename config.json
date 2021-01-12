@@ -1,0 +1,23 @@
+{
+    "model": {
+        "bert_max_len":128,
+        "gnn_layer": 9,
+        "ablation": "exp4"
+    },
+    "training": {
+        "epochs": 2,
+        "train_batch_size": 4,
+	    "test_batch_size": 4,
+        "warmup_proportion": 0,
+        "learning_rate": 5e-6,
+        "logging_step": 1000,
+        "output_dir": "top7",
+        "total_training_examples": 6355844
+    },
+    "system": {
+	    "train_data": "./data/top7/bm25_train",
+        "test_data": "./data/top7/bm25_test/trec.top7.test.graph.json"
+    },
+    "bert_token_file": "bert-base-uncased",
+    "bert_model_file": "bert-base-uncased"
+}
