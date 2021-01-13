@@ -6,8 +6,11 @@ Abstract: Most research on pseudo relevance feedback (PRF) has been done in vect
 
 ## Environment
 python 3.7.0
+
 pytorch 1.6.0
+
 dgl 0.5.2
+
 transformers 1.0.0
 
 ## Data 
