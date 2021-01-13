@@ -4,14 +4,13 @@ Repo of code and data for ECIR 2021 short paper "PGT: Pseudo Relevance Feedback 
 
 Abstract: Most research on pseudo relevance feedback (PRF) has been done in vector space and probabilistic retrieval models. This paper shows that Transformer-based rerankers can also benefit from the extra context that PRF provides. It presents PGT, a graph-based Transformer that sparsifies attention between graph nodes to enable PRF while avoid- ing the high computational complexity of most Transformer architec- tures. Experiments show that PGT improves upon non-PRF Transformer reranker, and it is at least as accurate as Transformer PRF models that use full attention, but with lower computational costs.
 
-## Environment
+## Requirements
+```
 python 3.7.0
-
 pytorch 1.6.0
-
 dgl 0.5.2
-
 transformers 1.0.0
+```
 
 ## Data 
 Please download `data.zip` from our virtual appendix [here](http://boston.lti.cs.cmu.edu/appendices/ECIR20-HongChien-Yu/downloads). Unzip the file, and place the unzipped `data` folder directly in this repo (so it becomes `pgt/data`). 
